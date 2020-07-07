@@ -30,3 +30,5 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 tasks.getByPath(":frame:javadocRelease").enabled = false
+tasks.getByPath(":frame_kotlin:javadocRelease").enabled = false
+tasks.getByPath(":frame_utils:javadocRelease").enabled = false

@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 29
@@ -79,6 +78,7 @@ artifacts {
     archives sourcesJar
 }
 
+apply plugin: 'com.novoda.bintray-release'
 publish {
     userOrg = 'jingyangsddx'
     groupId = 'com.king.lib'

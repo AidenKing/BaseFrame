@@ -1,7 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 29
@@ -51,9 +50,10 @@ dependencies {
     implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
 
     api 'com.king.lib:frame-annotations:1.0'
-    api project(path: ':frame-utils')
+    api 'com.king.lib:frame-utils:1.0'
 }
 
+apply plugin: 'com.novoda.bintray-release'
 publish {
     userOrg = 'jingyangsddx'
     groupId = 'com.king.lib'
