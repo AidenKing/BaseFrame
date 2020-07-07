@@ -1,0 +1,5 @@
+include ':frame_annotations'
+include ':frame_compiler'
+include ':frame'
+include ':app'
+rootProject.name = "BaseFrame"
