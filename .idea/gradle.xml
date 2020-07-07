@@ -15,10 +15,10 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/app-kotlin" />
             <option value="$PROJECT_DIR$/frame" />
-            <option value="$PROJECT_DIR$/frame-utils" />
             <option value="$PROJECT_DIR$/frame_annotations" />
             <option value="$PROJECT_DIR$/frame_compiler" />
             <option value="$PROJECT_DIR$/frame_kotlin" />
+            <option value="$PROJECT_DIR$/frame_utils" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

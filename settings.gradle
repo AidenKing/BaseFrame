@@ -1,5 +1,5 @@
 include ':app-kotlin'
-include ':frame-utils'
+include ':frame_utils'
 include ':frame_kotlin'
 include ':frame_annotations'
 include ':frame_compiler'
