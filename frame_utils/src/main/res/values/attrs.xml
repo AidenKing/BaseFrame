@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <attr name="shapeArrowPosition">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="shapeBorderType">
+            <enum name="stroke" value="0" />
+            <enum name="fill" value="1" />
+        </attr>
+        <attr name="shapeStrokeCap">
+            <enum name="butt" value="0" />
+            <enum name="round" value="1" />
+            <enum name="square" value="2" />
+        </attr>
+        <attr name="shapeStrokeJoin">
+            <enum name="bevel" value="0" />
+            <enum name="miter" value="1" />
+            <enum name="round" value="2" />
+        </attr>
+        <declare-styleable name="BaseShaderImageView">
+            <attr name="shapeSquare" format="boolean" />
+            <attr name="shapeBorderColor" format="color" />
+            <attr name="shapeBorderWidth" format="dimension" />
+            <attr name="shapeBorderAlpha" format="float" />
+            <attr name="shapeForeground" format="integer|reference" />
+            <!-- Rounded Image View -->
+            <attr name="shapeRadius" format="dimension" />
+            <!--BubbleImageView-->
+            <attr name="shapeArrowPosition"/>
+            <attr name="shapeTriangleHeight" format="dimension"/>
+            <!--PorterImageView-->
+            <attr name="shapeShape" format="integer|reference" />
+            <!--ShaderImageView-->
+            <attr name="shapeBorderType"/>
+            <attr name="shapeStrokeCap"/>
+            <attr name="shapeStrokeJoin"/>
+            <attr name="shapeStrokeMiter" format="dimension" />
+        </declare-styleable>
+</resources>
